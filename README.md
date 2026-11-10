@@ -11,3 +11,13 @@ You need Node.js 22.12 or later. It comes with npm.
    ```
 
 3. Open the address shown in the terminal.
+
+## Run with Docker
+
+Start Docker Desktop. Open a terminal in the project folder and run:
+
+```sh
+docker compose up --build
+```
+
+Open http://localhost:8080. To stop the app, press Ctrl+C.
